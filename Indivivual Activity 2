@@ -1,0 +1,178 @@
+HTML Web Pag Research and Code analysis
+Example 1- HTML Form Page
+<!DOCTYPE html>
+<html>
+<body>
+<h2>HTML Forms</h2>
+<form action="/action_page.php">
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="John"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Doe"><br><br>
+<input type="submit" value="Submit">
+</form>
+<p>If you click the "Submit" button, the form-data will be sent to a page called
+"/action_page.php".</p>
+</body>
+</html>
+
+
+Code Analysis
+A. Structure Analysis
+The structure begins with the declaration !DOCTYPE html. This declaration is used to inform the
+browser that this is an HTML5 document.
+The structure contains the HTML elements, namely, the html and body elements. However, the
+head element is missing in this structure. In a complete HTML document, the head section is
+used to include metadata such as the page title, character encoding, and possibly links to
+stylesheets or scripts.
+The structure is well indented, making it easy to understand the structure of the HTML elements
+in this document.
+The correct structure should include:
+* head element
+* title tag
+* meta tags for accessibility and search engine optimization
+
+
+B. Elements and Tags
+
+In this example, the heading tag h2 is used to display the page title, "HTML Forms."
+The page does not include any lists, such as the unordered list tag or the ordered list tag.
+Instead, this page is focused on form elements.
+The main elements in this page are:
+
+* form, which is used to collect user input
+* label>, which is used to describe the input fields
+* input fields, where users can insert text
+* input type="submit" for form submission
+No images are present in this example. Additionally, there are no hyperlinks (a tags).
+The form inputs are correctly associated with their respective labels using the for attribute.
+
+
+C. Semantic HTML5 Usage
+
+There is no usage of semantic HTML5 tags in the code. These tags include:
+● header
+● nav
+● section
+● article
+● main
+● footer
+Improvement can be made by adding the content inside the following tags:
+A. main for the main content
+B. header for the title
+C. footer for additional content
+
+
+Example 2- Radio Button
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Radio Buttons</h2>
+<p>Choose your favorite Web language:</p>
+<form>
+<input type="radio" id="html" name="fav_language" value="HTML">
+<label for="html">HTML</label><br>
+<input type="radio" id="css" name="fav_language" value="CSS">
+<label for="css">CSS</label><br>
+<input type="radio" id="javascript" name="fav_language" value="JavaScript">
+<label for="javascript">JavaScript</label>
+</form>
+</body>
+</html>
+
+
+Code Analysis
+A. Structure Analysis
+The structure of this HTML document starts with the declaration !DOCTYPE html. This means
+the document is written in HTML5.
+The document has the html and body elements. However, the document is missing the head
+element. A basic HTML document needs the head element to hold metadata such as the title
+and character encoding.
+The structure is well indented and very presentable. The structure is well arranged since every
+element in the form is on a separate line.
+However, the structure needs improvement in the following ways:
+head
+title
+metadata elements
+
+B. Elements and Tags
+The document makes use of the h2 tag for the heading "Radio Buttons."
+The document makes use of the p tag for the user's instruction.
+The main elements in this document are the elements found in the form:
+form
+input type="radio"
+label
+Radio buttons allow the user to choose only one option from a group. This is done by giving all
+the radio buttons the same name attribute:
+<form>
+<label><input type="radio" name="fav_language" value="Java">Java</label>
+<label><input type="radio" name="fav_language" value="C++">C++</label>
+<label><input type="radio" name="fav_language" value="PHP">PHP</label>
+</form>
+There are no lists, images, or links in this document.
+The labels are correctly associated with the radio buttons through the for attribute.
+
+
+C. Semantic HTML5 Usage
+This webpage doesn’t utilize semantic HTML5 tags like:
+● header
+● nav
+● section
+● article
+● main
+● footer
+To make the code structure and readability better, semantic elements can be included.
+
+
+Example 3- Checkbox Form Page
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Checkboxes</h2>
+<p>The <strong>input type="checkbox"</strong> defines a checkbox:</p>
+<form action="/action_page.php">
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+<label for="vehicle1"> I have a bike</label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+<label for="vehicle2"> I have a car</label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+<label for="vehicle3"> I have a boat</label><br><br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
+Code Analysis
+A. Structure Analysis
+The document starts with the HTML5 doctype declaration, which is !DOCTYPE html. This is
+essential because it instructs the browser to render the HTML5 code.
+The document has the HTML and body tags, but it does not have the head section. The HTML
+document is not complete because it is supposed to have the head section that contains
+metadata and the title.
+The code has proper indentation, which makes it easy to read and maintain.
+
+B. Elements and Tags
+The document has the heading tag h2 that is used to display the title "Checkboxes".
+The paragraph element p is used to explain what the checkbox is. Inside the paragraph
+element, the strong tag is used to stress the phrase input type="checkbox".
+The main tags used in the document include:
+
+form
+input type="checkbox"
+label
+input type="submit”
+The checkboxes allow the user to choose more than one option at the same time.
+The labels are correctly referencing the corresponding input elements using the for attribute.
+
+
+C. Semantic HTML5 Usage
+This page does not use any semantic HTML5 elements such as:
+● header
+● nav
+● section
+● article
+● main
+● footer
+To improve this structure, the form could be placed inside the main element, and the heading
+could be placed inside the header element.
